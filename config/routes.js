@@ -7,7 +7,7 @@ const Users = require("./model")
 
 const jwtKey =
     process.env.JWT_SECRET ||
-    'add a .env file to root of project with the JWT_SECRET variable';
+    'Secrets are cool and all, but secrets dont make friends';
 
 module.exports = server => {
   server.post('/api/register', register);
